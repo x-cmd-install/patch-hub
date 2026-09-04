@@ -7,7 +7,7 @@ about:
   head: deba389
   archived: false
   latestVersion: v0.1.7
-  collectedAt: 2026-09-04T19:23:14Z
+  collectedAt: 2026-09-04T21:13:20Z
 timeline:
   created: 2024-06-24
   lastCommit: 2025-05-16
@@ -82,5 +82,43 @@ total:
   openIssue: 18
   commit: 233
 ---
+path: /home/runner/.x-repo/github.com/kworkflow/patch-hub
+collectedAt: 2026-09-04T21:13:21Z
+loc:
+  Rust:
+    code: 5424
+    comments: 75
+    blanks: 830
+    files: 47
+  Html:
+    code: 1129
+    comments: 0
+    blanks: 326
+    files: 4
+  Xml:
+    code: 144
+    comments: 0
+    blanks: 0
+    files: 2
+  Toml:
+    code: 57
+    comments: 8
+    blanks: 8
+    files: 2
+  Json:
+    code: 27
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 348
+    blanks: 149
+    files: 3
+total:
+  code: 6853
+  comments: 759
+  blanks: 1420
+  files: 59
 ---
 
