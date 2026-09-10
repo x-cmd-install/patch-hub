@@ -4,13 +4,25 @@
 
 patch-hub is a TUI that streamlines the interaction of Linux developers with patches archived on lore.kernel.org
 
-![patch-hub](https://repo.x-cmd.io/patch-hub.svg)
+![patch-hub](https://repo.x-cmd.io/patch-hub.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install patch-hub
 ```
+
+## 代码规模
+
+合计: **6,781** 行代码（覆盖前 5 种语言、共 **56** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 5,424 | 75 | 830 | 47 |
+| Html | 1,129 | 0 | 326 | 4 |
+| Xml | 144 | 0 | 0 | 2 |
+| Toml | 57 | 8 | 8 | 2 |
+| Json | 27 | 0 | 0 | 1 |
 
 ## 源代码
 
@@ -22,7 +34,6 @@ x install patch-hub
 - **最新版本**: `v0.1.7` (2025-07-11)
 - **最近提交**: 2025-05-16
 - **Release 含资产**: 4 个
-- **发布时间**: 2025-07-11T13:16:58Z
 
 ## 流行度
 
@@ -37,20 +48,20 @@ x install patch-hub
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 6 | 0 | 3 | 0 |
 | 90d | 2026-06-12 | 0 | 6 | 6 | 0 | 3 | 0 |
+| last180d | 2026-03-14 | 0 | 15 | 6 | 0 | 3 | 0 |
 | 360d | 2025-09-15 | 0 | 15 | 19 | 0 | 4 | 0 |
+| last720d | 2024-09-20 | 5 | 22 | 22 | 20 | 13 | 131 |
 
-## 代码规模
+## Release 资产
 
-合计: **6,781** 行代码（覆盖前 5 种语言、共 **56** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 5,424 | 75 | 830 | 47 |
-| Html | 1,129 | 0 | 326 | 4 |
-| Xml | 144 | 0 | 0 | 2 |
-| Toml | 57 | 8 | 8 | 2 |
-| Json | 27 | 0 | 0 | 1 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [patch-hub-x86_64-unknown-linux-gnu.tar.xz](https://github.com/kworkflow/patch-hub/releases/download/v0.1.7/patch-hub-x86_64-unknown-linux-gnu.tar.xz) | 7.8 MiB | `native/linux/x64/glibc` |
+| [patch-hub-x86_64-unknown-linux-gnu.tar.xz.sha256](https://github.com/kworkflow/patch-hub/releases/download/v0.1.7/patch-hub-x86_64-unknown-linux-gnu.tar.xz.sha256) | 108 B | `native/linux/x64/glibc` |
+| [patch-hub-x86_64-unknown-linux-musl.tar.xz](https://github.com/kworkflow/patch-hub/releases/download/v0.1.7/patch-hub-x86_64-unknown-linux-musl.tar.xz) | 7.9 MiB | `native/linux/x64/musl` |
+| [patch-hub-x86_64-unknown-linux-musl.tar.xz.sha256](https://github.com/kworkflow/patch-hub/releases/download/v0.1.7/patch-hub-x86_64-unknown-linux-musl.tar.xz.sha256) | 109 B | `native/linux/x64/musl` |
 
 ## 改进这些数据
 
@@ -61,4 +72,4 @@ patch-hub 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:30:06Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:39:54Z._
