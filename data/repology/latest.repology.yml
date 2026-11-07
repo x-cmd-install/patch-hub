@@ -1,17 +1,3 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: patch-hub
-  binnames:
-    - patch-hub
-  visiblename: patch-hub
-  version: 0.1.7
-  origversion: 0.1.7-3
-  status: unique
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - carl.keinath@gmail.com
-  categories:
-    - utils
 - repo: debian_14
   subrepo: forky/main
   srcname: patch-hub
@@ -28,6 +14,20 @@
     - utils
 - repo: debian_unstable
   subrepo: sid/main
+  srcname: patch-hub
+  binnames:
+    - patch-hub
+  visiblename: patch-hub
+  version: 0.1.7
+  origversion: 0.1.7-3
+  status: unique
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - carl.keinath@gmail.com
+  categories:
+    - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: patch-hub
   binnames:
     - patch-hub
@@ -84,6 +84,20 @@
     - universe/utils
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: patch-hub
+  binnames:
+    - patch-hub
+  visiblename: patch-hub
+  version: 0.1.7
+  origversion: 0.1.7-3
+  status: unique
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - carl.keinath@gmail.com
+  categories:
+    - universe/utils
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: patch-hub
   binnames:
     - patch-hub
